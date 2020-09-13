@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: graphik-reg;
+    src: url(./assets/fonts/Graphik-Regular.woff2) format("truetype");
+  }
+
+  @font-face {
+    font-family: graphik-black;
+    src: url(./assets/fonts/Graphik-Black.woff2) format("truetype");
+}
+@font-face {
+    font-family: graphik-medium;
+    src: url(./assets/fonts/Graphik-Medium.woff2) format("truetype");
+}
+
+body {
+    height: 1024px!important;
+    width: 1440px!important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}

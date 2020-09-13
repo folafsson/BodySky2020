@@ -1,0 +1,126 @@
+.spacer {
+    flex: 1;
+  }
+    .content {
+      max-block-size: 1024px!important;
+    display: flex;
+    background-color: #fff;
+  }
+  .toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff00;
+  color: white;
+  z-index: 1299;
+  }
+  
+  .toolbar .bs-logo{
+  padding-left: 155px!important;
+  padding-top: 71px!important  ;
+  }
+  
+  .toolbar a {
+  line-height: 2;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 74px;
+  padding-right: 80px;
+  font-family: graphik-reg!important;
+  text-decoration: none;
+  }
+  
+  .toolbar a:hover {
+   opacity: 0.8!important;
+  }
+  
+  .toolbar button {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    height: 41px;
+    width: 150px;
+    border-radius: 4px;
+    margin-right: 150px;
+    margin-top: 67px;
+    cursor: pointer;
+    font-family: graphik-reg!important;
+  }
+  #lock {
+    position: absolute;
+  }
+  #bg-path {
+    position: absolute;
+  }
+  .right-box {
+    height: auto!important;
+    display: block;
+    padding-top: 256px;
+    padding-left: 150px;
+  }
+  .left-box {
+    display: block!important;
+    height: auto!important;
+    min-width: 750.1px!important;
+  }
+  .right-box h1 {
+    font-size: 48px;
+    font-weight: 900!important;
+    font-family: graphik-black!important;
+    width: 537px;
+  }
+  
+  .right-box p {
+    font-size: 16px;
+    font-family: graphik-reg!important;
+  }
+  
+  .button-app-store {
+    display: inline-block;
+    border-radius: 4px;
+    border: 0;
+    height: 47px;
+    width: 161px;
+    opacity: 1;
+    box-shadow: 0 10px 40px 0 rgba(52, 46, 47, 0.2);
+  }
+  
+  .button-play-store {
+    display: inline-block;
+    margin-left:13px!important;
+    border-radius: 4px;
+    border: 0;
+    height: 47px;
+    width: 161px;
+    opacity: 1;
+    box-shadow: 0 10px 40px 0 rgba(52, 46, 47, 0.2);
+  
+  }
+  .button-play-store :hover {
+    box-shadow: 0 10px 40px 0 rgba(52, 46, 47, 0.5);
+    transition: 350ms;
+  }
+  .button-app-store :hover{
+    box-shadow: 0 10px 40px 0 rgba(52, 46, 47, 0.5);
+    transition: 350ms;
+  }
+  .products-image {
+    position: relative;
+    display: inline-block;
+    z-index: 1198!important;
+  }
+  .products-image img{
+    padding-top: 150px;
+    padding-left: 230px;
+    height: 1350px!important;
+    width: auto!important;
+    z-index: 1199!important;
+  }
+  .carousel-box {
+    padding-top:121px!important;
+  }

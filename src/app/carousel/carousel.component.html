@@ -1,0 +1,22 @@
+<p id="trainer-header">Seneste trænerprofiler</p>
+
+<div id="trainer-box">
+        
+    <div *ngFor="let item of items.slice(0, 3);" class="profile-box">
+
+        <img src="https://api.bodysky.com/content/profile-picture/{{item.imageUid}}" alt="">  
+
+        <p>{{item.name}}</p>
+    </div>
+
+    <div id="right-button-box">
+
+        <div class="arrow-nav">
+
+            <img src="../../assets/images/arrow-right.png" alt="">
+
+        </div>
+
+    </div>
+
+</div>

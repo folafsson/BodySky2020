@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'BodySky2020'`, () => {
+  it(`should have as title 'BodySky'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('BodySky2020');
+    expect(app.title).toEqual('BodySky');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('BodySky2020 app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('BodySky app is running!');
   });
 });
